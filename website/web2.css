@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+.benner {
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+.icon {
+  padding-top: 20px;
+  padding-inline: px;
+  font-size: 18px;
+  letter-spacing: 10px;
+}
+li {
+  list-style-type: none;
+}
+
+.Special {
+  font-size: 18px;
+}
+.info {
+  word-spacing: 15px;
+  font-size: 20px;
+}
+header {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+}
+/* .logo{
+    display: flex;
+    flex-grow: 50px;
+} */
+.home {
+  font-size: 20px;
+  word-spacing: 15px;
+  padding-top: 15px;
+  /* display: flex;
+     justify-content: right; */
+}
+.cart {
+  font-size: 20px;
+  padding-top: 30px;
+  word-spacing: 15px;
+}
+.main {
+  height: 1500px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 35px;
+  padding-inline: 20px;
+}
+.rounded {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.we {
+  width: 635px;
+  height: 534px;
+  position: relative;
+  top: 700px;
+  right: 670px;
+  border-radius: 20px;
+}
+.coupons {
+  height: 235px;
+  background-color: rgb(199, 199, 199);
+  width: 1000px;
+  /* margin-block:100px ; */
+  margin-inline: 200px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 30px;
+}
+.off {
+  font-size: 100px;
+  color: rgb(255, 224, 184);
+  position: absolute;
+  right: 10px;
+  padding: 10px;
+}
+.coupons button:hover {
+  background-color: rgb(0, 238, 255) !important;
+  border: 0;
+}
+.about {
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  margin-block: 40px;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.view:hover {
+  color: brown;
+}
+.container {
+  height: 200px;
+  background-color: aliceblue;
+  display: flex;
+  gap: 20px;
+  padding-inline: 20px;
+  margin-top: 15px;
+}
+.product {
+  width: 20%;
+}
+.prize {
+  height: 40px;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-inline: 20px;
+}
+.big {
+  height: 810px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding-inline: 20px;
+  padding-block: 48px;
+  gap: 20px;
+}
+.new-product {
+  height: 200px;
+  background-color: aliceblue;
+  display: flex;
+  gap: 20px;
+  padding-inline: 20px;
+  margin-top: 15px;
+}
+footer {
+  height: 500px;
+  display: flex;
+  gap: 70px;
+  font-size: 20px;
+  padding-inline: 20px;
+}
